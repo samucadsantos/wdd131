@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Samuel dos Santos – This is a course project for BYU-Idaho's Web Design and Development program.">
+    <meta name="author" content="Samuel dos Santos">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>WDD 131 – Dynamic Web Fundamentals - Samuel dos Santos</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+
+        <nav>
+            <ul>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/samucasantos/">LinkedIn</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://byupw.instructure.com/">I-Learn</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.churchofjesuschrist.org/study/scriptures/nt/rev/15?lang=por&id=p3#p3">Scripture</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Samuel dos Santos</h1>
+        
+        <div class="grid-container">
+            <section class="card">
+                <header>
+                    <h2>About Me</h2>
+                </header>
+                
+                <div class="about-me-container">
+                    <div class="about-me">
+                        <p>My name is Samuel dos Santos. I am a student at BYU-Idaho, pursuing a degree in Web Design and Development. 
+                        I have a passion for creating engaging and user-friendly websites.</p>
+
+                        <div class="flag-container">
+                            <p>Serra, Brazil</p>
+
+                            <div>
+                                <img src="images/brazil-flag.jpg" alt="Official flag of Brazil">
+
+                                <p>
+                                    Brazil, officially the Federative Republic of Brazil, is the largest country in South America.
+                                    It is also the world's fifth-largest country by area and the seventh-largest by population, with over 214 million people.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="images/samuel-dos-santos.jpg" alt="Samuel dos Santos">
+                </div>
+            </section>
+            <section class="card">
+                <header>
+                    <h2>Web Dev Resources</h2>
+                </header>
+
+                <div>
+                    <ul>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML Documentation</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN CSS Documentation</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN JavaScript Documentation</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> &#x1F4BB; Samuel dos Santos &#x1F4BB; Brazil</p>
+        <p>Last modification: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
