@@ -23,6 +23,10 @@ body {
     grid-template-rows: auto auto 1fr auto;
 }
 
+header {
+    background-color: var(--primary-color);
+}
+
 #course-title {
     display: block;
     text-align: center;
