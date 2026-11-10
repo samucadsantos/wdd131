@@ -12,9 +12,3 @@ window.addEventListener("resize", () => {
         nav.classList.remove("open");
     }
 });
-
-const year = document.querySelector("#year");
-const lastModified = document.querySelector("#last-modified");
-
-year.textContent = new Date().getFullYear();
-lastModified.textContent = document.lastModified;
